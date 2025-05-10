@@ -1,0 +1,475 @@
+<html>
+  <head>
+    <title>tickets and opening hours</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+    <link rel="icon" href="assets/logo.png" type="image/jpg">
+  </head>
+
+  <body>
+    <header>
+      <img src="assets/logo.png" class="logonav" />
+      <input type="search" placeholder="search bar" class="searchbar" />
+      <nav>
+        <a href="#offers">OFFERS</a>
+        <a href="#tickets">TICKETS</a>
+        <a href="#TIMEE">TIMETABLE</a>
+        <a href="#booking">BOOKING</a>
+        <a href="#">GUIDELINES</a>
+      </nav>
+    </header>
+    <!-- main section  -->
+    <div class="main">
+      <h1>
+        Cross the threshold into a place containing more than
+        <span class="quote2">5000 YEARS!</span> <br />of Ancient Egyptian
+        history.
+      </h1>
+      <p>Discover the wonders of ancient civilization</p>
+      <img class="logomain" src="assets/logo.png" /><br />
+    </div>
+    <!-- offers section  -->
+    <div class="offersback" id="offers">
+      <fieldset>
+        <legend>
+          <h2 class="head">SPECIAL OFFERS</h2>
+        </legend>
+        <table class="offertable">
+          <tr>
+            <td>
+              <div class="offercard">
+                <dl>
+                  <dt>Ramadan Nights in the Museum</dt>
+                  <dd>
+                    🌙 Theme: Night-only tickets during Ramadan with lanterns,
+                    music, and special Islamic art exhibitions.
+                  </dd>
+                  <ul>
+                    <li>Night Pass: 100 EGP</li>
+                    <li>Iftar Add-on (Traditional meal): +70 EGP</li>
+                  </ul>
+                </dl>
+              </div>
+            </td>
+            <td>
+              <div class="offercard">
+                <dl>
+                  <dt>Student Project Display Week</dt>
+                  <dd>
+                    🎨 Theme: Allow university and school students to showcase
+                    art or history projects in mini exhibitions.
+                  </dd>
+                  <ul>
+                    <li>
+                      Students: 100 EGP per project (includes 2 guest passes.)
+                    </li>
+                    <li>Visitors: Normal museum ticket (e.g., 80 EGP).</li>
+                  </ul>
+                </dl>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="offercard">
+                <dl>
+                  <dt>Kids’ Discovery Camp (One Day Program)</dt>
+                  <dd>
+                    🧸 Theme: Mini archaeologist day - dig for fossils, mini art
+                    projects.
+                  </dd>
+                  <dd>
+                    (Includes materials, badge, and a participation
+                    certificate.)
+                  </dd>
+                  <ul>
+                    <li>Per child: 180 EGP</li>
+                    <li>Siblings discount: 160 EGP each</li>
+                  </ul>
+                </dl>
+              </div>
+            </td>
+            <td>
+              <div class="offercard">
+                <dl>
+                  <dt>Annual Museum Festival</dt>
+                  <dd>
+                    🎉 Theme: 3-day event with food trucks, live art shows, and
+                    mini workshops.
+                  </dd>
+                  <dd>(Workshops and food are paid separately inside.)</dd>
+                  <ul>
+                    <li>General Admission: 100 EGP</li>
+                    <li>3-Day Pass: 250 EGP</li>
+                  </ul>
+                </dl>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="offercard">
+                <dl>
+                  <dt>School Educational Package</dt>
+                  <dd>
+                    🎒 Theme: Tailored museum tour + mini workshop based on
+                    school curriculum (history, art, science).
+                  </dd>
+                  <ul>
+                    <li>
+                      Offer: 1 tour guide per 20 students Mini souvenir included
+                      (bookmark, postcard) Price:
+                    </li>
+                    <li>
+                      90 EGP per student 1 free teacher ticket per 10 students
+                      Bonus: Certificate of participation for each student 🏅
+                    </li>
+                  </ul>
+                </dl>
+              </div>
+            </td>
+            <td>
+              <div class="offercard">
+                <dl>
+                  <dt>University Research Pass</dt>
+                  <dd>📚 Theme: For students doing projects or thesis work.</dd>
+                  <ul>
+                    <li>
+                      Offer: Unlimited monthly museum entry Access to archive
+                      materials (if available)
+                    </li>
+                    <li>Price: 300 EGP per student for 1 month</li>
+                  </ul>
+                </dl>
+              </div>
+            </td>
+          </tr>
+          <tr></tr>
+        </table>
+      </fieldset>
+      <fieldset class="container" id="bo">
+        <legend>
+          <h2 class="head" id="booking">BOOKING FORM & GUIDELINES</h2>
+        </legend>
+        <table>
+          <tr>
+            <td><input id="1stname" type="text" placeholder="first name" /></td>
+            <td>
+              <input id="2ndname" type="text" placeholder="second name" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input id="email" type="email" placeholder="%$&!@gmail.com" />
+            </td>
+            <td>
+              <input id="password" type="password" placeholder="*******" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input id="phone" type="number" placeholder="phone number" />
+            </td>
+            <td><input id="age" type="age" placeholder="age" /></td>
+          </tr>
+          <tr>
+            <td>
+              <select>
+                <option value="adult-egy">egyptian adult for EGP 30</option>
+                <option value="adult-foriegn">foriegn adult for EGP 550</option>
+                <option value="egy-student">egyptian student for EGP 10</option>
+                <option value="foreign-student">
+                  foriegn student for EGP 275
+                </option>
+              </select>
+            </td>
+            <td>
+              <select>
+                <option value="novideo">no video</option>
+                <option value="video">video ticket for EGP 300</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="submit" /></td>
+            <td><input type="reset" /></td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <td><img src="assets/bags-icon.png" /></td>
+            <td>
+              <img src="assets/clean-icon.png" />
+            </td>
+            <td>
+              <img src="assets/no-animal-icon.png" />
+            </td>
+            <td><img src="assets/quite-icon.png" /></td>
+          </tr>
+          <tr>
+            <td>
+              <img src="assets/no-flash-icon-1.png" />
+            </td>
+            <td>
+              <img src="assets/no-food-icon.png" />
+            </td>
+            <td>
+              <img src="assets/no-smoking-icon.png" />
+            </td>
+            <td><img src="assets/no-knife-icon.png" /></td>
+          </tr>
+        </table>
+      </fieldset>
+    </div>
+    <!-- tickets section  -->
+    <div id="tickets" class="ticketsback">
+      <fieldset>
+        <legend>
+          <h2 class="head">All About Tickets & Prices</h2>
+        </legend>
+        <table class="tickets">
+          <tr>
+            <td>
+              <ul>
+                <li>
+                  <p>ENTRANCE FEE FOR EGYPTIANS AND ARAB CITIZENS:</p>
+                </li>
+                <ul>
+                  <li>
+                    <p>Adult: EGP 30</p>
+                  </li>
+                  <li>
+                    <p>Student: EGP 10</p>
+                  </li>
+                  <li>
+                    <p>Free entrance for children under 6 years</p>
+                  </li>
+                </ul>
+                <li>
+                  <p>ENTRANCE FEE FOR OTHER NATIONALITIES:</p>
+                </li>
+                <ul>
+                  <li>
+                    <p>Adult: EGP 550</p>
+                  </li>
+                  <li>
+                    <p>Student: EGP 275</p>
+                  </li>
+                  <li>
+                    <p>Free entrance for children under 6 years</p>
+                  </li>
+                </ul>
+                <li>
+                  <p>Photo & Video Ticket</p>
+                  <ul>
+                    <li>Mobile Phones Photography is free</li>
+                    <li>
+                      <p>
+                        For other uses, such as the acquisition of images for
+                        scientific publications or commercial purposes, please
+                        contact the Registration, Collections Management, and
+                        Documentation Department via: egypts@gmail.com
+                      </p>
+                    </li>
+                    <li>Video: EGP 300 (Personal Use)</li>
+                  </ul>
+                </li>
+              </ul>
+            </td>
+            <td><img src="assets/logo.png" /></td>
+          </tr>
+        </table>
+      </fieldset>
+    </div>
+    <!-- timetable section  -->
+    <div class="timetableback" id="timetable">
+      <fieldset>
+        <legend>
+          <h2 class="head" id="TIMEE">VISITING HOURS</h2>
+        </legend>
+        <table class="timetable">
+          <tr>
+            <td>
+              <p>Day</p>
+            </td>
+            <td>
+              <p>Opening</p>
+            </td>
+            <td>
+              <p>Closing</p>
+            </td>
+            <td>
+              <p>Notes</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>sunday</p>
+            </td>
+            <td>
+              <p>10:00 AM</p>
+            </td>
+            <td>
+              <p>6:00 PM</p>
+            </td>
+            <td>
+              <p>Quiet Museum Day 🕊️</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Monday</p>
+            </td>
+            <td>
+              <p>10:00 AM</p>
+            </td>
+            <td>
+              <p>6:00 PM</p>
+            </td>
+            <td>
+              <p>Quiet Museum Day 🕊️</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Tuesday</p>
+            </td>
+            <td>
+              <p>10:00 AM</p>
+            </td>
+            <td>
+              <p>6:00 PM</p>
+            </td>
+            <td>
+              <p>Senior Discount Day</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Wednesday</p>
+            </td>
+            <td>
+              <p>10:00 AM</p>
+            </td>
+            <td>
+              <p>6:00 PM</p>
+            </td>
+            <td>
+              <p>Maintenance Day</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Thursday</p>
+            </td>
+            <td>
+              <p>10:00 AM</p>
+            </td>
+            <td>
+              <p>8:00 PM</p>
+            </td>
+            <td>
+              <p>Family Events & Workshops 👨‍👩‍👧‍👦</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Friday</p>
+            </td>
+            <td>
+              <p>2:00 PM</p>
+            </td>
+            <td>
+              <p>8:00 PM</p>
+            </td>
+            <td>
+              <p>(Opens later after Jumu'ah prayer)</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Saturday</p>
+            </td>
+            <td>
+              <p>10:00 AM</p>
+            </td>
+            <td>
+              <p>8:00 PM</p>
+            </td>
+            <td>
+              <p>Extended Evening Hours 🌙</p>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+      <section id="open-status">
+        <p id="open-status">loading...</p>
+       </section>
+      <footer>
+        <table class="quicklinkstable">
+          <tr>
+            <td>
+              <nav class="quicklinks">
+                <ul>
+
+                  <li><a href="../web develop/log in.html">>LogIn/Register</a></li>
+                  <li><a href="../Maya-Final-main/galley.html">>Gallery</a></li>
+                  <li><a href="../Abdulrahman Alwakeel/Guided Tours.html">>Guided tours</a></li>
+                  <li><a href="../aboutUs-main/about us.html">>About us</a></li>
+                </ul>
+              </nav>
+              <nav class="quicklinks">
+                <ul>
+                  <li><a href="../museum-contact-us-page-main/contact us.html">>Contact us</a></li>
+                  <li><a href="../Location-page-Museum-Website-main/location.html">>Location</a></li>
+                  <li><a href="../Museum-main/VIP ARRIVALS.html">>Opening & VIP Arrivals</a></li>
+                  <li><a href="../Ahmed-hassan/rate us.html">>Rate us</a></li>
+                </ul>
+              </nav>
+            </td>
+            <td><img class="logo" src="assets/logo.png" /></td>
+            <td>
+              <nav>
+                <ul>
+                  <li>
+                    <a
+                      href="https://www.facebook.com/GrandEgyptianMuseum?locale=ar_AR"
+                      ><img src="assets/facebook.png"
+                    /></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://r.search.yahoo.com/_ylt=AwrFdI33_Q1ougIAwHFXNyoA;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Nj/RV=2/RE=1746957048/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fEgyptian_Museum/RK=2/RS=si55Loqm.EBA2NjMcHipXV7kG7M-"
+                      target="_self"
+                      ><img src="assets/wiki.png"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://maps.app.goo.gl/LpBk8Bq4HcazV9Hd8"
+                      ><img src="assets/loc.png"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/grandegyptianmuseum/"
+                      ><img src="assets/instagram.png"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/@grandegyptianmuseum1"
+                      ><img src="assets/youtube.png"
+                    /></a>
+                  </li>
+                </ul>
+              </nav>
+            </td>
+          </tr>
+        </table>
+        <p class="Copyrights">
+          Copyrights Ministry of Antiquities - Egypt 2019, All rights
+          reserved<br />
+          Developed by Link Development
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,245 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    width: 100%;
+    background-image: url(assets/mainpic.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    font-family: 'Garamond', serif;
+    overflow-x: hidden;
+}
+
+/* navbar section  */
+header {
+    width: 100%;
+    margin:0%;
+    padding: 0%;
+    top: 0%;
+    position:fixed ;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(7px);
+    z-index: 1;
+  }
+header nav a{
+    font-weight: bold;
+    padding: 30px;
+    text-decoration: none;
+    font-size: larger;
+    color: gold;
+}
+.logonav{
+    height: 80px;
+}
+.searchbar{
+    border-radius: 50px;
+}
+
+/* main section */
+h1{
+    color: gold;
+    font-size: xx-large;
+    color: white;
+    text-shadow: 3px 3px black;
+    text-align: center;
+    font-family: 'Garamond', serif;
+}
+.head{
+    font-size: xx-large;
+    color: rgba(255, 217, 0, 0.808);
+    text-shadow: 2px 2px black;
+    font-family: 'Garamond', serif;
+}
+.logo{
+    width: 400px;
+    height: 200px;
+    align-content: end;
+    justify-content: end;
+    display: flex;
+}
+.logomain{
+    align-items: center;
+    height: 200px;
+} 
+.main{
+    padding-top: 10%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Garamond', serif;
+    color: aliceblue;
+    font-size: x-large;
+    background-size: cover;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+/* offers and form section  */
+.container{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(2px);
+}
+.container img{
+    height: 120px;
+    margin: 10px;
+}
+.offersback{
+    padding-block: 2%;
+    background-image: url(assets/wow.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.offertable{
+    display: table;
+    align-items: center;
+    margin-inline: auto;
+}
+.offercard{
+    margin: 20px;
+    font-weight: bold;
+    width: 380px;
+    height: 200px;
+    font-size: medium;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.671);
+    backdrop-filter: blur(10px);
+    display: inline-block;
+    border-radius: 20px;
+}
+.offercard dt{
+color: rgba(247, 215, 57, 0.658);
+margin-left:10px ;
+font-size: large;
+text-decoration: underline;
+}
+input,select {
+    border-radius: 5px;
+    margin: 15px;
+    height: 30px;
+    width: 300px;
+    border: 2px;
+    border-color: black;
+    font-size: large;
+}
+
+/* tickets section  */
+.ticketsback{
+    background-image: url(assets/tickets.jpg);
+    background-color: rgb(231, 229, 229);
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    background-position-y: center;
+}
+ul li{
+    margin-inline: 50px;
+    margin-block: 20px;
+}
+.tickets{
+    width: 100%;
+    font-size: medium;
+    color: rgb(139, 65, 0);
+    font-weight: bold;
+}
+.tickets img{
+    height: 200px;
+    width: 400px;
+    margin-top: 80%;
+}
+
+/* timetable section  */
+.timetable{
+    display: table;
+    align-items: center;
+}
+.timetableback{
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+    background-image: url(assets/status1.jpg);
+}
+.timetable td{
+    font-size: larger;
+    text-align: start;
+    color: aliceblue;
+    background-size: cover;
+    padding-inline: 40px;
+    padding-block: 10px;
+    border-radius: 5px;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.692);
+}
+.notes{
+    color: aliceblue;
+}
+
+/* footer section  */
+footer{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: table-row;
+    background-position: center;
+    background-size: cover;
+    color: gold;
+    font-size: x-large;
+    background-color: rgba(0, 0, 0, 0.514);
+    background-size: contain;
+}
+footer table{
+    padding-inline: 45px;
+    color: aliceblue;
+    width: 100%;
+}
+footer nav ul li {
+list-style: none;
+display: inline-flex;
+margin: 20px;
+}
+footer img{
+height: 40px;
+}
+.quicklinkstable{
+    width: 100%;
+}
+.quicklinks{
+    margin: 0%;
+    list-style: none;
+    display: table-row;
+    width: 60px;
+}
+.quicklinks a{
+    font-family: 'Garamond', serif;
+    font-weight: bold;
+    margin:0%;
+    text-decoration: none;
+    color: gold;
+    transition-duration: 1s;
+    display: inline-block;
+    width: 100px;
+    font-size: larger;
+    text-align: start;
+}
+.quicklinks a:hover{
+    transform: translateX(15px);
+    background-color: rgb(0, 0, 0);
+}
+.copyrights{
+    text-align: center;
+    font-size: medium;
+}
+
+/* js function */
+#open-status{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: gold;
+    background-color: black;
+    width: 100%;
+    font-size: large;
+}
